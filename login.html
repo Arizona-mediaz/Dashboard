@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>OLOBBY Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+    <meta name="description" content=""/>
+    <meta name="keywords" content=""/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" id="bootstrap-stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/icons.min.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/app.css" id="app-stylesheet"/>
+
+    <!-- devExpress -->
+    <!-- <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/21.2.6/css/dx.common.css" /> -->
+    <!-- <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/21.2.6/css/dx.light.css" /> -->
+</head>
+
+<body class="left-side-menu-sm enlarged">
+    <div id="wrapper">
+        <!-- Topbar Start -->
+        <div class="navbar-custom">
+            <!-- LOGO -->
+            <div class="logo-box">
+                <a href="index.html" class="logo logo-dark">
+                    <span class="logo-lg">
+                        <img src="assets/images/olobby_logo.svg" alt="">
+                    </span>
+                    <span class="logo-sm">
+                        <img src="assets/images/logo_sm.svg" alt="">
+                    </span>
+                </a>
+            </div>
+        </div>
+
+        
+        <!-- Start Page Content here -->
+        <div class="content-page login_wrapper">
+            <div class="content fullWidth">
+                <!-- Start container-fluid -->
+                <div class="container-fluid mt-4 mb-5">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="ml-5">
+                                <h3 class="heading1 fontMedium">Welcome to OLobby!</h3>
+                                <p class="subTxt fontMedium">Our true mission is to optimize your workflow.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row align-items-center">
+                        <div class="col-xl-7">
+                            <figure>
+                                <img src="assets/images/login_img.png" alt="login image">
+                            </figure>
+                        </div>
+                        <div class="col-xl-5 p-5 loginForm">
+                            <h6 class="title">Sign In to your account</h6>
+                            <form action="" class="form">
+                                <div class="form-group">
+                                    <label for="emailaddress">Username or Email Address</label>
+                                    <input class="form-control" type="email" id="emailaddress" required="" placeholder="">
+                                </div>
+                                <div class="form-group">
+                                    <label for="password">Password</label>
+                                    <input class="form-control" type="password" required="" id="password" placeholder="">
+                                </div>
+                                <div class="form-group mb-4 pb-3">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="checkbox checkbox-primary">
+                                            <input id="checkbox-signin" type="checkbox" checked="">
+                                            <label for="checkbox-signin" class="mb-0">Remember me</label>
+                                        </div>
+                                        <a href="#" class="txtLink">Forgot your password?</a>
+                                    </div>
+                                </div>
+                                <div class="text-right">
+                                    <!-- <button class="btn btn-primary1" type="submit">Sign In</button> -->
+                                    <a href="index.html" class="btn btn-primary1">Sign In</a>
+                                </div>
+                                <div class="col-sm-12 text-center">
+                                    <p>Don't have an account? <a href="#" class="txtLink">Sign Up</a></p>
+                                </div>
+                            </form>
+                            <ul class="text-center list-unstyled mb-0 copyrightInfo">
+                                <li class="d-inline mr-1">App Version: 1.0.22073.1</li>
+                                <li class="d-inline mr-1">© 2022 OLobby.</li>
+                                <li class="d-inline">All Rights Reserved.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>                    
+
+                <!-- Footer Start -->
+                <footer class="footer">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <!-- <div class="col-md-12">2022 &copy; Olobby</div> -->
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+
+    <!---- js files/scripts ---->
+    <!-- for jquery-ui search -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="assets/libs/jquery-ui/jquery-ui.min.js"></script>
+
+    <script src="assets/libs/bootstrap-tagsinput/bootstrap-tagsinput.min.js"></script>
+    <script src="assets/js/vendor.min.js"></script>
+    <script src="assets/libs/bootstrap-filestyle2/bootstrap-filestyle.js"></script>
+    <!-- <script src="assets/libs/morris-js/morris.min.js"></script>
+    <script src="assets/libs/raphael/raphael.min.js"></script> -->
+    <script src="assets/js/pages/dashboard.init.js"></script>
+    <script src="assets/js/app.js"></script>
+
+</body>
+</html>
